@@ -1,0 +1,123 @@
+.column {
+    float: left;
+    display: inline;
+    width: 65%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.orderSummry {
+    position: relative;
+    left: 900px;
+    bottom: 650px;
+    width: 560px;
+    min-height: 100vh;
+}
+
+.orderSummryText h1 {
+    text-align: center;
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    color: #212f3d;
+    font-weight: 500;
+}
+
+.orderSummryText h3 {
+    border-radius: 8px;
+    padding: .5rem 1.5rem;
+    background-color: #212f3d;
+    color: white;
+    font-weight: 400;
+}
+
+.containerf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    padding-right: 50px;
+    min-height: 100vh;
+    margin-top: 30px;
+}
+
+.containerf form {
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    text-transform: capitalize;
+}
+
+.containerf form .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.containerf form .row .col {
+    flex: 1 1 250px;
+}
+
+.containerf form .row .col .title {
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.containerf form .row .col .inputBox {
+    margin: 15px 0;
+}
+
+.containerf form .row .col .inputBox span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.containerf form .row .col .inputBox input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.containerf form .row .col .inputBox input:focus {
+    border: 1px solid #000;
+}
+
+.containerf form .row .col .flex {
+    display: flex;
+    gap: 15px;
+}
+
+.containerf form .row .col .flex .inputBox {
+    margin-top: 5px;
+}
+
+.containerf form .row .col .inputBox img {
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+
+.containerf form .submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #27ae60;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.containerf form .submit-btn:hover {
+    background: #212f3d;
+}

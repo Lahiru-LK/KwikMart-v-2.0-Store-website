@@ -1,0 +1,120 @@
+:root {
+	--blue: #2980b9;
+	--red: red;
+	--green: #27ae60;
+	--red:#ff6600;
+	--black: #333;
+	--white: #fff;
+	--bg-color: #eee;
+	--dark-bg: rgba(0, 0, 0, .7);
+	--box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+	--border: .1rem solid #999;
+ }
+
+.main{
+	background-color:#fff;
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+    
+}
+
+.userpic {
+	position:absolute;
+	width:400px;
+	height:320px;
+	background: url(../images/Sprinkle.svg);
+	color:#000;
+	top:50%;
+	left:20%;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;				
+	padding:70px 30px;
+	box-shadow: 0 0 5px rgba(6, 0, 0, 0.5), 0 0 25px rgba(0, 0, 0, 0.08);
+	border-radius: 10px;
+   
+	
+}
+.userpic img{
+	width:100px;
+	height:auto;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left: calc(50% - 50px);
+	
+}
+.profile_h1{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:25px;
+    
+}
+.userpic td{
+	margin:0;
+	padding:0;
+
+   
+	
+}
+
+
+.userpic a{
+	text-decoration:none;
+	color:darkgrey;
+	font-size:12px;
+	line-height:20px;
+}
+.userpic a:hover{
+	color:rgb(248, 17, 17);
+}
+
+profile_table tr{
+	height: 25px;
+}
+.proside{
+    position:absolute;
+    top:20%;
+	left:60%;
+	
+}
+table.tpro{
+	padding: 30px;
+	border-radius: 10px;
+}
+table.tpro td{
+	padding: 10px;
+}
+table input[type="submit"] {
+	border: none;
+	border-radius: 0px;
+	padding: 5px 10px 5px 10px; 
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 13px;
+	background-color: var(--green);
+	color: var(--white);
+ }
+ 
+ table input[type="submit"]:hover {
+	background-color: var(--black);
+ }
+
+
+
+
+table input[type="reset"] {
+	border: none;
+	border-radius: 0px;
+	padding: 10px 25px 10px 25px; 
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 13px;
+	background-color: var(--red);
+	color: var(--white);
+ }
+ 
+ table input[type="reset"]:hover {
+	background-color: var(--black);
+ }
